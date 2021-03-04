@@ -29,21 +29,15 @@ export function SecondsCounter(props) {
 	}
 
 	return (
-		<div className="container-flex bg-dark text-white">
-			<div className="row">
-				<div className="col-3"></div>
-				<div className="col-6 d-flex justify-content-center">
-					<div className="d-inline-block fs-1">
-						<i className="fas fa-stopwatch"></i>
-					</div>
-
-					<div className="d-inline-block fs-1">{thousand}</div>
-					<div className="d-inline-block fs-1">{hundred}</div>
-					<div className="d-inline-block fs-1">{ten}</div>
-					<div className="d-inline-block fs-1">{unit}</div>
-				</div>
-				<div className="col-3"></div>
+		<div id="counterBody">
+			<div className="icon">
+				<i className="fas fa-stopwatch"></i>
 			</div>
+
+			<div className="thousand">{thousand}</div>
+			<div className="hundred">{hundred}</div>
+			<div className="ten">{ten}</div>
+			<div className="unit">{unit}</div>
 		</div>
 	);
 }

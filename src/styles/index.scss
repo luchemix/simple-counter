@@ -1,13 +1,71 @@
-@import "~bootstrap/scss/bootstrap.scss";
+body{
+    background-color: black;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+#counterBody{
+    height: 50px;
+    width: 220px;
+    margin: auto;
+    position: relative;
+    top: 75px;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: xx-large;
+    border-radius: 15px;
+}
+.icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.thousand{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.hundred{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.ten{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.unit{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}

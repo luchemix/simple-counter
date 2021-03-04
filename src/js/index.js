@@ -17,7 +17,7 @@ let count = 0;
 setInterval(function() {
 	ReactDOM.render(
 		<SecondsCounter seconds={count} />,
-		document.querySelector("#app")
+		document.getElementById("app")
 	);
 	count += 1;
 }, 1000);
