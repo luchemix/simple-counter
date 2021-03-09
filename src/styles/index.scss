@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
 body{
     background-color: black;
+    background-image: url("http://cdn.lowgif.com/full/a898c9346701fe0f-loop-time-gif-by-psyklon-find-share-on-giphy.gif");
+    // background-size: contain;
 }
 
 #counterBody{
@@ -10,7 +14,7 @@ body{
     top: 75px;
     display: flex;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: rgb(231, 133, 21);
     font-size: xx-large;
     border-radius: 15px;
 }
@@ -22,8 +26,9 @@ body{
     position: relative;
     top: 5px;
     background-color: black;
-    color: white;
+    color: rgb(222, 168, 233);
     border-radius: 15px;
+    padding-top: 5px;
 }
 .thousand{
     display: inline-block;
@@ -33,8 +38,11 @@ body{
     position: relative;
     top: 5px;
     background-color: black;
-    color: white;
+    color: rgb(214, 138, 230);
     border-radius: 15px;
+    font-family: 'Stick', sans-serif;
+    padding-bottom: 5px;
+
 }
 .hundred{
     display: inline-block;
@@ -44,8 +52,10 @@ body{
     position: relative;
     top: 5px;
     background-color: black;
-    color: white;
+    color: rgb(209, 107, 230);
     border-radius: 15px;
+    font-family: 'Stick', sans-serif;
+    padding-bottom: 5px;
 }
 .ten{
     display: inline-block;
@@ -55,8 +65,10 @@ body{
     position: relative;
     top: 5px;
     background-color: black;
-    color: white;
+    color: rgb(203, 82, 228);
     border-radius: 15px;
+    font-family: 'Stick', sans-serif;
+    padding-bottom: 5px;
 }
 .unit{
     display: inline-block;
@@ -66,6 +78,8 @@ body{
     position: relative;
     top: 5px;
     background-color: black;
-    color: white;
+    color: rgb(200, 53, 230);
     border-radius: 15px;
+    font-family: 'Stick', sans-serif;
+    padding-bottom: 5px;
 }
